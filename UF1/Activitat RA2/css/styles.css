@@ -1,0 +1,107 @@
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #0A2239;
+    padding: 4vw;
+    font-size: 1.1em;
+    justify-content: center;
+}
+
+#restartBttn {
+    background-color: #132E32;
+    color: white;
+    font-size: 1.4em;
+}
+
+#restartBttn:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.4em;
+    scale: 1.1
+}
+
+#main {
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#divSecretNumber {
+    display: flex;
+    justify-content: center;
+    background-color: #0A2239;
+    width: 10%;
+    height: 10%;
+    flex-wrap: wrap-reverse;
+
+}
+
+#secretNumberLbl {
+    font-size: 4em;
+    color: white;
+}
+
+#playsCountTxt,
+#pointsTxt,
+#totalPoints {
+    font-size: 1.5em;
+}
+
+#restartBttn {
+    margin-left: 3vw;
+}
+
+#divStatus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#numInput,
+#tryBttn {
+    width: 30%;
+}
+
+#numInput {
+    height: 4vw;
+    width: 7vw;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#tryBttn {
+    background-color: #0A2239;
+    height: 7vw;
+    width: 15vw;
+    border-radius: 20%;
+    margin-top: 3vw;
+    font-size: 1.2em;
+    color: white;
+}
+
+#tryBttn:hover {
+    background-color: #132E32;
+}
+
+#statusLbl,
+#numsTriedLbl,
+#numsTriedTxt,
+#playsCount {
+    font-size: 1.2em;
+}

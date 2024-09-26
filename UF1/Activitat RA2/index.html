@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!--  <p>Busca un numero entre el</p>
+        <p id="minValue"></p>
+        <p> y el </p>
+        <p id="maxValue"></p> -->
+
+        <h1>Busca un número entre el <span id="minValue"></span>&nbsp;y&nbsp;<span id="maxValue"></span></h1>
+
+        <button onclick="generateSecretNumber()" id="restartBttn"> Reinicia </button>
+    </header>
+
+    <div>
+
+
+        <div id="main">
+            <h2>Prueba un numero</h2>
+            <div id="divSecretNumber">
+                <p id="secretNumberLbl">?</p>
+            </div>
+            <p id="playsCountTxt">Jugadas:
+            <p id="playsCount"></p>
+            </p>
+            <p id="pointsTxt">Puntos:
+            <p id="totalPoints">0</p>
+            </p>
+        </div>
+
+        <div id="divStatus">
+            <input type="number" id="numInput">
+
+            <button onclick="tryNumber()" id="tryBttn"> Prueba </button>
+            <p id="statusLbl">Empieza la partida!</p>
+
+            <p id="numsTriedTxt">Números Probados:
+            <p id="numsTriedLbl"></p>
+            </p>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
